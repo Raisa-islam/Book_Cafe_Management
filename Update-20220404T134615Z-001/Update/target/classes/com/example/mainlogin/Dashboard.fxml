@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mainlogin.DashboardController">
+   <children>
+      <Pane prefHeight="55.0" prefWidth="1002.0" style="-fx-background-color: #b48e9c;">
+         <children>
+            <Pane layoutY="52.0" prefHeight="656.0" prefWidth="55.0" style="-fx-background-color: #b48e9c;" />
+         </children>
+      </Pane>
+      <Pane layoutX="52.0" layoutY="67.0" prefHeight="607.0" prefWidth="898.0" style="-fx-background-color: #fbo8e5;">
+         <children>
+            <ImageView fitHeight="157.0" fitWidth="200.0" layoutX="339.0" layoutY="-70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Book.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnAddBook" layoutX="70.0" layoutY="287.0" mnemonicParsing="false" onAction="#handleBtn5" prefHeight="50.0" prefWidth="115.0" text="Add Book" textFill="#5a3534">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="btnAddMember" layoutX="64.0" layoutY="498.0" mnemonicParsing="false" onAction="#handleBtn4" prefHeight="50.0" prefWidth="115.0" text="Add Member" textFill="#5a3534">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="btnMemberList" layoutX="379.0" layoutY="498.0" mnemonicParsing="false" onAction="#handleBtn7" prefHeight="50.0" prefWidth="115.0" text="Memberlist" textFill="#5a3534">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="btnIssueBook" layoutX="682.0" layoutY="284.0" mnemonicParsing="false" onAction="#handleBtn8" prefHeight="50.0" prefWidth="115.0" text="Issue Book " textFill="#5a3534">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="btnFood" layoutX="685.0" layoutY="496.0" mnemonicParsing="false" onAction="#handleBtn3" prefHeight="50.0" prefWidth="115.0" text="Food" textFill="#5a3534">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="btnBookList" layoutX="382.0" layoutY="285.0" mnemonicParsing="false" onAction="#handleBtn6" prefHeight="50.0" prefWidth="115.0" text="BookList" textFill="#5a3534">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="140.0" fitWidth="147.0" layoutX="55.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@addbook.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="185.0" layoutX="32.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@addmember.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="176.0" fitWidth="179.0" layoutX="351.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@BOOKLIst.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="157.0" fitWidth="165.0" layoutX="368.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@memberlist.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="648.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@issuebook.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="165.0" fitWidth="157.0" layoutX="660.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@food.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="894.0" layoutY="-84.0" prefHeight="741.0" prefWidth="61.0" style="-fx-background-color: #b48e9c;">
+               <children>
+                  <Button fx:id="logoutButton" layoutX="-10.0" layoutY="15.0" mnemonicParsing="false" onAction="#logout" prefHeight="40.0" prefWidth="73.0" style="-fx-background-radius: 90; -fx-background-color: transprent;" text="Logout" textFill="#5a3534">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane layoutX="-87.0" layoutY="606.0" prefHeight="55.0" prefWidth="1002.0" style="-fx-background-color: #b48e9c;" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

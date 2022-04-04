@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mainlogin.AddBookController">
+   <top>
+      <AnchorPane prefHeight="713.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="55.0" prefWidth="1000.0" style="-fx-background-color: #b48e9c;" />
+            <Pane prefHeight="700.0" prefWidth="55.0" style="-fx-background-color: #b48e9c;">
+               <children>
+                  <Button fx:id="btnReturn3" layoutX="-2.0" layoutY="-4.0" mnemonicParsing="false" onAction="#handleBtn12" prefHeight="42.0" prefWidth="52.0" style="-fx-background-color: Transparent;" text="&lt;&lt;">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Label layoutX="70.0" layoutY="116.0" text="Name :" textFill="#5a3534">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="69.0" layoutY="183.0" text=" Author :" textFill="#5a3534">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="73.0" layoutY="249.0" text="Genre :" textFill="#5a3534">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="309.0" text="Price :" textFill="#5a3534">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="431.0" text="Availabe(Buying) :" textFill="#5a3534">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="616.0" layoutY="434.0" text="Available(Reading) :" textFill="#5a3534">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="book_name" layoutX="254.0" layoutY="117.0" prefHeight="26.0" prefWidth="725.0" promptText="Book Name" style="-fx-background-color: transparent; -fx-border-color: #b48e9c; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="book_author" layoutX="254.0" layoutY="183.0" prefHeight="26.0" prefWidth="725.0" promptText="Author Name" style="-fx-background-color: transparent; -fx-border-color: #b48e9c; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="book_genre" layoutX="255.0" layoutY="250.0" prefHeight="26.0" prefWidth="725.0" promptText="Book Genre" style="-fx-background-color: transparent; -fx-border-color: #b48e9c; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="book_price" layoutX="256.0" layoutY="310.0" prefHeight="26.0" prefWidth="725.0" promptText="Book Price " style="-fx-background-color: transparent; -fx-border-color: #b48e9c; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="available_buying" layoutX="222.0" layoutY="425.0" prefHeight="28.0" prefWidth="158.0" promptText="Availability for Buying" style="-fx-background-color: transaprent; -fx-border-color: #b48e9c; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="available_reading" layoutX="774.0" layoutY="428.0" prefHeight="28.0" prefWidth="174.0" promptText="Availability for Reading" style="-fx-background-color: transparent; -fx-border-color: #b48e9c; -fx-border-width: 0px 0px 2px 0px;" />
+            <Button layoutX="731.0" layoutY="532.0" mnemonicParsing="false" onAction="#save" prefHeight="26.0" prefWidth="73.0" text="Save" textFill="#5a3534" />
+            <Button layoutX="835.0" layoutY="532.0" mnemonicParsing="false" onAction="#cancel" prefHeight="26.0" prefWidth="68.0" text="Cancel" textFill="#5a3534" />
+            <Label layoutX="724.0" layoutY="586.0" prefHeight="31.0" prefWidth="214.0" textAlignment="JUSTIFY" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
